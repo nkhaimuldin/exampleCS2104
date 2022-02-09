@@ -17,6 +17,10 @@ public abstract class Animal {
 
     public abstract void makeSound();
 
+    public void makeStep(){
+        System.out.println("Made step");
+    }
+
     @Override
     public String toString() {
         return "Animal name " + name;
